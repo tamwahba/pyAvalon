@@ -14,7 +14,7 @@ class MovingWindow(Tk):
         self.taskWindow = Frame(self)
         self.taskWindow.pack(fill=X)
 
-        self.closeImg = PhotoImage(file="Close Lable.gif")
+        self.closeImg = PhotoImage(file="resources\Close Lable.gif")
         self.closeLable = Label(self.taskWindow, image=self.closeImg)
         self.closeLable.pack()
         self.closeLable.bind("<1>", self.closeWindow)
